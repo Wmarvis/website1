@@ -1,0 +1,269 @@
+body {
+    background-color: rgb(144, 197, 243);
+    
+}
+#nav  {
+    background-color: rgb(10, 10, 10);
+    padding: 20px;
+    border-radius: 20px;
+}
+#nav strong {
+    color: rgb(230, 16, 16);
+    font-size: 40px;
+}
+#nav a{
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(242, 16, 16);
+}
+#nav li {
+    float: right;
+    padding: 0px 10px 0px 10px;
+    list-style: none;
+}
+
+h2  {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+h1 {
+    color: red;
+}
+
+
+
+/* contact
+*/
+@import
+  url('https:fontts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+:root {
+    --color-white: #f3f3f3;
+    --color-darkblue: #1b1b32;
+    --color-darkblue-alpha: rgba(27,27,50,0.8);
+    --color-green: #37af65;
+    --color-black: #0000;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    box-shadow: inset;
+}
+
+body {
+    font-family: 'Poppins', system-ui;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--color-green);
+    margin: 0;
+}
+
+/* mobile friendly alternative to  using background-attachment:fixed */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: rgb(189, 186, 186);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    font-weight: 400;
+    line-height: 1.2;
+    width: 20%;
+    padding: 0.75rem;
+    background-color: darkcyan;
+    border-radius: 5px;
+    color: white;
+
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 7.5px;
+
+}
+
+input,
+button,
+select  {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+ 
+.container {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* form */
+
+form {
+    background: var(--color-white);
+    padding: 2.5rem 0.625rem;
+    border-radius: 10px;
+}
+
+@media (min-width: 480px) {
+    form {
+        padding: 2.5rem;
+    }
+}
+
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: brown;
+    background-color: white;
+    background-clip: padding-box;
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: aquamarine;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+
+}
+
+.submit-button {
+    display: block;
+    width: 30%;
+    padding: 0.75rem;
+    background-color: green;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+/* about us */
+
+body {
+    width : 100%;
+    height: auto;
+    background-color: whitesmoke;
+}
+
+#nav {
+    background-color: black;
+    padding:20px;
+}
+#nav strong {
+    color: white;
+    font-size:25px;
+}
+#nav a {
+    color: rgb(214,214,214);
+    text-decoration: none;
+}
+
+#nav li {
+    float: right;
+    padding: 0px 8px 0px 8px;
+    list-style: none;
+}
+
+#header-banner {
+    background-color: white;
+    padding: 12rem 0rem 12rem 0rem;
+    
+}
+
+#header-banner2 {
+    color: black;
+    text-align: center;
+}
+
+#marvis  {
+    color: white;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+}
+#marviss {
+    color: black;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+}
+#marvisss {
+    color: white;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#divy {
+    text-align: center;
+    color: white;
+}
+#divvy {
+    text-align: center;
+    color: black;
+}
+
+#divvvy {
+    text-align: center;
+    color: white;
+}
+
+#nothing {
+    padding: 70px;
+    border-radius: 10px;
+    background-image: url('images/Improving_teaching_styles-608x486.Improving_teaching_styles-608x486');
+    
+}
+#nothings {
+    padding: 70px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#beauty {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
